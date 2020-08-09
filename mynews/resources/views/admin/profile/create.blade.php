@@ -7,12 +7,12 @@
 
         <title>My プロフィール</title>
         <!-- PHP/Laravel 11 課題4.profile.blade.phpファイルを読み込む -->
-@extends('profile.blade')
+@extends('layouts.profile')
         <!-- PHP/Laravel 11 課題4.titleとcontentを編集しましょう -->
     <div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
-                <h2>プロフィール</h2>
+               
             </div>
         </div>
     </div>
