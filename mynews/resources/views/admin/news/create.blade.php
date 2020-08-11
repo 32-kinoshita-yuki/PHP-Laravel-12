@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>MyNews</title>
+     
         
         
         {{-- layouts/admin.blade.phpを読み込む --}}
@@ -17,13 +17,14 @@
 
 {{-- admin.blade.phpの@yield('content')に以下のタグを埋め込む --}}
 @section('content')
-    <div class="container">
+<div class="container">
         <div class="row">
             <div class="col-md-8 mx-auto">
                 <h2>ニュース新規作成</h2>
             </div>
         </div>
-    </div>
+        
+</div>
 @endsection
         
     </head>
@@ -31,3 +32,10 @@
         <h1>Myニュース作成画面</h1>
     </body>
 </html>
+
+
+
+
+
+
+
